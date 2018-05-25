@@ -1,40 +1,31 @@
-
 html,
 body {
 	height: 100%;
-	width: 100%;
 }
 
 .heading {
-    width: 1200px;
-    align-content: center;
-}
-#kadens-div {
-	display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
-
-.rectangle {
-    height: 56px;	
-    width: 266px;	
-    border: 1px solid #979797;	
-    background-color: #D8D8D8;
-    margin-left:138px;
+.partner-logo {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 266px;
+	border: 1px solid #979797;	
+  background-color: #D8D8D8;
+  color: #333333;	
+  font-family: "Roboto Mono";	
+  font-size: 22px;
+  text-align: center;
 }
 
 .rectangle-3-copy-7 {
-    margin-top:59px;
-    margin-left: 1162px;
+  margin-top: 59px;
+/*  margin-left: 1162px;*/
 	height: 40px;
 	width: 140px;
-    border: 2px solid #45B0E5;
-
+  border: 2px solid #45B0E5;
 }
-
-
 
 .existing-user {
 	height: 20px;
@@ -42,20 +33,9 @@ body {
 	color: #808080;
 	font-family: "Nunito Sans";
 	font-size: 14px;
-    line-height: 19px;
-    text-align: center;
+  line-height: 19px;
+  text-align: center;
 }
-
-
-.partner-logo {	 
-    color: #333333;	
-    font-family: "Roboto Mono";	
-    font-size: 22px;	
-    line-height: 29px;
-    padding: 13px 52px;
-    
-}
-
 
 #learning-platform {
 	height: 1152px;
