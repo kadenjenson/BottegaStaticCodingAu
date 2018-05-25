@@ -67,3 +67,46 @@ body {
 	line-height: 27px;
 }
 
+.info-cards {
+	padding-top: 160px;
+	padding-bottom: 160px;
+	width: 100%;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+	float: left;
+	height: 162px;
+	width: 360px;
+	margin: 20px 20px 20px 20px;
+}
+
+.card-header {
+	font-size: 22px;
+	text-align: center;
+}
+
+.card-text {
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
