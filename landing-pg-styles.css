@@ -2,6 +2,7 @@
 html,
 body {
 	height: 100%;
+	width: 100%;
 }
 
 .heading {
@@ -10,11 +11,11 @@ body {
 }
 #kadens-div {
 	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-#learning-platform {
-	
-}
 
 .rectangle {
     height: 56px;	
@@ -25,7 +26,6 @@ body {
 }
 
 .rectangle-3-copy-7 {
-    position: absolute;
     margin-top:59px;
     margin-left: 1162px;
 	height: 40px;
@@ -56,4 +56,34 @@ body {
     
 }
 
+
+#learning-platform {
+	height: 1152px;
+	width: 100%;
+	background: url("lms-bottega.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.lp-headers {
+	margin: auto;
+	text-align: center;
+	margin-top: 157px;
+}
+
+.lp-main-header {
+	color: #333333;
+	font-family: "Roboto Mono";
+	font-size: 30px;
+	line-height: 39px;
+}
+
+.lp-sub-header {
+	margin-right: 18%;
+	margin-left: 18%;
+	color: #444444;
+	font-family: "Nunito Sans";
+	font-size: 20px;
+	line-height: 27px;
+}
 
