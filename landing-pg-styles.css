@@ -40,7 +40,7 @@ body {
 #learning-platform {
 	height: 1152px;
 	width: 100%;
-	background: url("lms-bottega.jpg");
+	background: url("assets/lms-bottega.jpg");
 	background-position: center;
 	background-size: cover;
 }
