@@ -178,36 +178,57 @@ body {
 .pr {
 	height: 480px;
 	width: 400px;
+	margin: 20px 15px 20px 15px;
 }
 
 .profile-1 {
 	background: url("assets/profile1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .profile-2 {
 	background: url("assets/profile2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .profile-3 {
 	background: url("assets/profile3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .profile-4 {
 	background: url("assets/profile4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .profile-5 {
 	background: url("assets/profile5.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .profile-6 {
 	background: url("assets/profile6.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .profile-7 {
 	background: url("assets/profile7.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
-s
 
 
 
