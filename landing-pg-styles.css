@@ -231,6 +231,17 @@ body {
 	opacity: 1;
 }
 
+.pr .name {
+	display: inline-block;
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
 .pr .text {
 	text-align: center;
 	font-size: 15px;
