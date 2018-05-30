@@ -56,7 +56,6 @@ body {
 }
 
 .existing-user {
-
 	font-family: "Nunito Sans";
 	font-size: 14px;
     line-height: 19px;
@@ -64,43 +63,48 @@ body {
 	margin-right: 14%;
 }
 
-.in-partnership-with {
-	height: 29px;
-	width: 265px;
-	color: #FFFFFF;
-	font-family: "Roboto Mono";
-	font-size: 22px;
-	line-height: 29px;
-	padding-left: 65%;
-	padding-top: 20px;
-}
-
 .rectangle-4-copy {
+	position: relative;
 	height: 90px;
+	width:100%;
 	background-color: #1A1A1A;
 	box-shadow: 0 9px 14px 0 rgba(0,0,0,0.2);
 }
 
+.in-partnership-with {
+	position: absolute;
+	height: 29px;
+	max-width: 100%;
+	left: 50%;
+	color: #FFFFFF;
+	font-family: "Roboto Mono";
+	font-size: 22px;
+	line-height: 29px;
+	padding-top: 20px;
+}
+
+
 .happy-worker-pexels-photo-9416 {
+	position: relative;
 	background: url("assets/Happy-worker_flipped.jpg") ;
-	text-align: left;
 	height: 888px;
+	max-width: 100%;
+	background-size: 100% 100%;
 }
 
 .tables {
+    position: absolute;
+	top: 10%;
+	left: 50%;
 	height: 299px;
-	width: 500px;
-	color: #444444;
-	font-family: "Nunito Sans";
-	font-size: 20px;
-	line-height: 27px;
-	margin-left: 55%;
-	padding-top: 10%;
+	width: 50%;
+
 }
 
 #job-opportinity {
-	text-align: center;
+	text-align: left;
 	padding-bottom: 2%;
+	padding-left:2%;
 }
 
 .tables p {
@@ -117,7 +121,9 @@ body {
     background: url('assets/code-2558220.jpg');
     background-position: center;
     background-size: cover;
-    text-align: center;
+	text-align: center;
+	width: 100%;
+	background-size: 100% 100%;
 }
 
 #rectangle-3-copy-2 {
@@ -177,9 +183,9 @@ body {
 	padding-bottom: 160px;
 	width: 100%;
 	display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  	flex-wrap: wrap;
+  	justify-content: center;
+ 	align-items: center;
 }
 
 .cards {
