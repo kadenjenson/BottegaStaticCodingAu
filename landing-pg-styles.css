@@ -139,7 +139,7 @@ body {
 }
 
 #sign-up-now {
-  margin-bottom:5%;
+    margin-bottom:5%;
 	color: #FFFFFF;
 	font-family: "Nunito Sans";
 	font-size: 20px;
@@ -152,6 +152,7 @@ body {
 	position: relative;
 	height: 1152px;
 	width: 100%; 
+	/* width: 100%; */
 	background: url("assets/lms-bottega.jpg");
 	background-position: center;
 	background-size: cover;
