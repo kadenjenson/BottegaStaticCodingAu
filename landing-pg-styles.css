@@ -19,7 +19,7 @@ body {
   	border: 1px solid #979797;	
   	background-color: #D8D8D8;
   	color: #333333;	
-  	font-family: "Roboto Mono";
+  	font-family: "Roboto Mono", monospace;
   	font-size: 22px;
   	text-align: center;
   	vertical-align: middle;
@@ -31,7 +31,7 @@ body {
   padding-bottom: 5%;
   padding-left:5%;
 	color: #FFFFFF;
-	font-family: "Roboto Mono";
+	font-family: "Roboto Mono", monospace;
 	font-size: 43px;
   line-height: 57px;
 
@@ -54,7 +54,7 @@ body {
 
 
 .existing-user {
-	font-family: "Nunito Sans";
+	font-family: "Nunito Sans", sans-serif;
 	font-size: 14px;
   line-height: 19px;
 	text-align: right;
@@ -75,7 +75,7 @@ body {
 	max-width: 100%;
 	left: 50%;
 	color: #FFFFFF;
-	font-family: "Roboto Mono";
+	font-family: "Roboto Mono", monospace;
 	font-size: 22px;
 	line-height: 29px;
 	padding-top: 20px;
@@ -91,22 +91,28 @@ body {
 }
 
 .tables {
-  	position: absolute;
+  position: absolute;
 	top: 10%;
 	left: 60%;
 	height: 299px;
 	max-width: 30%;
+}
 
+.tables p {
+	padding-left: 40px;
 }
 
 #job-opportinity {
+	font-family: "Roboto Mono", monospace;
+	font-size: 30px;
 	text-align: left;
 	padding-bottom: 2%;
 	padding-left: 8%;
 }
 
-.tables p {
-	padding-left: 40px;
+.table-text {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 20px;
 }
 
 .according {
@@ -115,9 +121,15 @@ body {
 	right: 19%;
 }
 
+.according p {
+	color: #808080;
+	font-family: "Nunito Sans", sans-serif;
+}
+
 .what_you_learn {
 	height: 888px;
 }
+
 .what_text{
 	position: relative;
 	left: 15%;
@@ -125,11 +137,12 @@ body {
 	height: 39px;
 	max-width: 15%;
 	color: #333333;
-	font-family: "Roboto Mono";
+	font-family: "Roboto Mono", monospace;
 	font-size: 30px;
 	line-height: 39px;
 	text-align: left;
 }
+
 .demand_lang{
 	position: relative;
 	left: 15%;
@@ -137,7 +150,7 @@ body {
 	height: 39px;
 	width: 307px;
 	color: #1A1A1A;
-	font-family: "Roboto Mono";
+	font-family: "Roboto Mono", monospace;
 	font-size: 19px;
 	line-height: 25px;
 }
@@ -150,22 +163,23 @@ body {
 	height: 243px;
 	width: 330px;
 	color: #444444;
-	font-family: "Nunito Sans";
+	font-family: "Nunito Sans", sans-serif;
 	font-size: 20px;
 	line-height: 27px;
 }
+
 .box {
 	position: relative;
 	left: 50%;
 	bottom: 20%;
 }
+
 .coding_lang{
 	height: 480px;
 	width: 500px !important ;
 	border: 1px solid #1A1A1A;
 	box-shadow: 0 6px 14px 0 rgba(0,0,0,0.2);
 }
-
 
 .coding_logo{
 	position: relative;
@@ -189,10 +203,11 @@ body {
 	height: 135px;
 	width: 292px;
 	color: #666666;
-	font-family: "Nunito Sans";
+	font-family: "Nunito Sans", sans-serif;
 	font-size: 20px;
 	line-height: 27px;
 }
+
 .black_box{
 	height: 784px;
 	max-width: 100%;
@@ -206,7 +221,7 @@ body {
 	height: 70px;
 	width: 30%;
 	color: #FFFFFF;
-	font-family: "Roboto Mono";
+	font-family: "Roboto Mono", monospace;
 	font-size: 27px;
 	line-height: 35px;
 	text-align: center;
@@ -239,7 +254,7 @@ body {
 #sign-up-now {
   margin-bottom:5%;
 	color: #FFFFFF;
-	font-family: "Nunito Sans";
+	font-family: "Nunito Sans", sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 27px;
@@ -262,7 +277,7 @@ body {
 
 .lp-main-header {
 	color: #333333;
-	font-family: "Roboto Mono";
+	font-family: "Roboto Mono", monospace;
 	font-size: 30px;
 	line-height: 39px;
 }
@@ -271,7 +286,7 @@ body {
 	margin-right: 18%;
 	margin-left: 18%;
 	color: #444444;
-	font-family: "Nunito Sans";
+	font-family: "Nunito Sans", sans-serif;
 	font-size: 20px;
 	line-height: 27px;
 }
@@ -295,11 +310,13 @@ body {
 
 .card-header {
 	font-size: 22px;
+	font-family: "Roboto Mono", monospace;
 	text-align: center;
 }
 
 .card-text {
 	font-size: 20px;
+	font-family: "Nunito Sans", sans-serif;
 }
 
 .slick-slide {
@@ -366,6 +383,7 @@ body {
 }
 
 .pr .name {
+	font-family: "Roboto Mono", monospace;
 	display: inline-block;
 	position: absolute;
 	top: 5%;
@@ -377,6 +395,7 @@ body {
 }
 
 .pr .work {
+	font-family: "Nunito Sans", sans-serif;
 	text-align: left;
 	color: #949494;
 	font-size: 14px;
@@ -391,6 +410,7 @@ body {
 }
 
 .pr .text {
+	font-family: "Nunito Sans", sans-serif;
 	text-align: left;
 	font-size: 15px;
 	display: inline-block;
@@ -450,6 +470,7 @@ body {
 }
 
 .sn-header {
+	font-family: "Roboto Mono", monospace;
 	font-size: 43px;
 	word-spacing: 10px;
 	margin-right: 21%;
@@ -465,6 +486,7 @@ button.sign-up {
 }
 
 button a {
+	font-family: "Nunito Sans", sans-serif;
 	color: white;
 	font-size: 20px;
 	text-decoration: none;
