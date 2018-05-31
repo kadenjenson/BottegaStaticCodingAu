@@ -271,7 +271,21 @@ body {
 	display: inline-block;
 	position: absolute;
 	top: 5%;
-	left: 25%;
+	left: 28%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.pr .work {
+	text-align: left;
+	color: #949494;
+	font-size: 14px;
+	display: inline-block;
+	position: absolute;
+	top: 13%;
+	margin-left: 17%;
 	-moz-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -279,12 +293,12 @@ body {
 }
 
 .pr .text {
-	text-align: center;
+	text-align: left;
 	font-size: 15px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 45%;
 	-moz-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -292,49 +306,28 @@ body {
 }
 
 .profile-1 {
-	background: url("assets/profile1.jpg");
+	background: url("assets/Cherish-Clark.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .profile-2 {
-	background: url("assets/profile2.jpg");
+	background: url("assets/Cody-Higgins.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .profile-3 {
-	background: url("assets/profile3.jpg");
+	background: url("assets/Stephanie.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .profile-4 {
-	background: url("assets/profile4.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.profile-5 {
-	background: url("assets/profile5.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.profile-6 {
-	background: url("assets/profile6.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.profile-7 {
-	background: url("assets/profile7.jpg");
+	background: url("assets/Brian-Anderson.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
