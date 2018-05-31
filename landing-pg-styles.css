@@ -84,7 +84,7 @@ body {
 
 .happy-worker-pexels-photo-9416 {
 	position: relative;
-	background: url("assets/Happy-worker_flipped.jpg") ;
+	background: url("assets/images/Happy-worker_flipped.jpg") ;
 	height: 888px;
 	max-width: 100%;
 	background-size: 100% 100%;
@@ -216,7 +216,7 @@ body {
 #rectangle-4 {
 	height: 100%;
   border: 1px solid #979797;
-  background: url('assets/code-2558220.jpg');
+  background: url('assets/images/code-2558220.jpg');
   background-position: center;
   background-size: cover;
 	text-align: center;
@@ -250,7 +250,7 @@ body {
 	position: relative;
 	height: 1152px;
 	width: 100%; 
-	background: url("assets/lms-bottega.jpg");
+	background: url("assets/images/lms-bottega.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -404,28 +404,28 @@ body {
 }
 
 .profile-1 {
-	background: url("assets/Cherish-Clark.jpg");
+	background: url("assets/images/Cherish-Clark.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .profile-2 {
-	background: url("assets/Cody-Higgins.jpg");
+	background: url("assets/images/Cody-Higgins.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .profile-3 {
-	background: url("assets/Stephanie.jpg");
+	background: url("assets/images/Stephanie.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .profile-4 {
-	background: url("assets/Brian-Anderson.jpg");
+	background: url("assets/images/Brian-Anderson.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -435,7 +435,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 705px;
-	background: url("assets/emile-perron-190221.jpg");
+	background: url("assets/images/emile-perron-190221.jpg");
 	background-size: cover;
 	background-position: center;
 }
