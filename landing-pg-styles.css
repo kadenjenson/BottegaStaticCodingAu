@@ -11,18 +11,18 @@ body {
 }
 
 .partner-logo {
-  padding-top: 13px;
-	padding-bottom: 13px;
+  	padding-top: 13px;
+  	padding-bottom: 13px;
 	margin-left: 50px;
 	margin-top: 20px;
-  width: 266px;
-  border: 1px solid #979797;	
-  background-color: #D8D8D8;
-  color: #333333;	
-  font-family: "Roboto Mono";
-  font-size: 22px;
-  text-align: center;
-  vertical-align: middle;
+  	width: 266px;
+  	border: 1px solid #979797;	
+  	background-color: #D8D8D8;
+  	color: #333333;	
+  	font-family: "Roboto Mono";
+  	font-size: 22px;
+  	text-align: center;
+  	vertical-align: middle;
 }
 
 
@@ -51,9 +51,7 @@ body {
 .box{
 	max-width: 200px;
 }
-.what_you_learn {
-	height: 888px;
-}
+
 
 .existing-user {
 	font-family: "Nunito Sans";
@@ -93,18 +91,18 @@ body {
 }
 
 .tables {
-  position: absolute;
+  	position: absolute;
 	top: 10%;
-	left: 50%;
+	left: 60%;
 	height: 299px;
-	width: 50%;
+	max-width: 30%;
 
 }
 
 #job-opportinity {
 	text-align: left;
 	padding-bottom: 2%;
-	padding-left:2%;
+	padding-left: 8%;
 }
 
 .tables p {
@@ -112,7 +110,107 @@ body {
 }
 
 .according {
-	padding-top: 30%;
+	position: absolute;
+	bottom: 0%;
+	right: 19%;
+}
+
+.what_you_learn {
+	height: 888px;
+}
+.what_text{
+	position: relative;
+	left: 15%;
+	top: 15%;
+	height: 39px;
+	max-width: 15%;
+	color: #333333;
+	font-family: "Roboto Mono";
+	font-size: 30px;
+	line-height: 39px;
+	text-align: left;
+}
+.demand_lang{
+	position: relative;
+	left: 15%;
+	top: 30%;
+	height: 39px;
+	width: 307px;
+	color: #1A1A1A;
+	font-family: "Roboto Mono";
+	font-size: 19px;
+	line-height: 25px;
+}
+
+.project-driven {
+	position: relative;
+	left: 15%;
+	top: 30%;
+	text-align: left;
+	height: 243px;
+	width: 330px;
+	color: #444444;
+	font-family: "Nunito Sans";
+	font-size: 20px;
+	line-height: 27px;
+}
+.box {
+	position: relative;
+	left: 50%;
+	bottom: 20%;
+}
+.coding_lang{
+	height: 480px;
+	width: 500px !important ;
+	border: 1px solid #1A1A1A;
+	box-shadow: 0 6px 14px 0 rgba(0,0,0,0.2);
+}
+
+
+.coding_logo{
+	position: relative;
+	top:13%;
+	height: 91px;
+	width: 100px;
+	margin:auto;
+	background-color: #45B0E5;
+}
+
+.lang{
+	position: relative;
+	top: 20%;
+	left: 20%;
+}
+
+.coding_paragraph{
+	position: relative;
+	top: 35%;
+	left: 15%;
+	height: 135px;
+	width: 292px;
+	color: #666666;
+	font-family: "Nunito Sans";
+	font-size: 20px;
+	line-height: 27px;
+}
+.black_box{
+	height: 784px;
+	max-width: 100%;
+	background-color: #1A1A1A;
+}
+
+.clear_path{
+	position: relative;
+	top: 15%;
+	word-spacing: 10px;
+	height: 70px;
+	width: 30%;
+	color: #FFFFFF;
+	font-family: "Roboto Mono";
+	font-size: 27px;
+	line-height: 35px;
+	text-align: center;
+	margin: auto;
 }
 
 #rectangle-4 {
