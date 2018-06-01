@@ -11,30 +11,59 @@ body {
 }
 
 .partner-logo {
-  	padding-top: 13px;
-  	padding-bottom: 13px;
+	padding-top: 13px;
+	padding-bottom: 13px;
 	margin-left: 50px;
 	margin-top: 20px;
-  	width: 266px;
-  	border: 1px solid #979797;	
-  	background-color: #D8D8D8;
-  	color: #333333;	
-  	font-family: "Roboto Mono", monospace;
-  	font-size: 22px;
-  	text-align: center;
-  	vertical-align: middle;
+	width: 266px;
+	border: 1px solid #979797;	
+	background-color: #D8D8D8;
+	color: #333333;	
+	font-family: "Roboto Mono", monospace;
+	font-size: 22px;
+	text-align: center;
+	vertical-align: middle;
 }
 
+#rectangle-4 {
+	height: 100%;
+  border: 1px solid #979797;
+  background: url('assets/images/code-2558220.jpg');
+  background-position: center;
+  background-size: cover;
+	text-align: center;
+	max-width: 100%;
+	background-size: 100% 100%;
+}
 
 .register-today-to-le {
   padding-top:10%;
   padding-bottom: 5%;
-  padding-left:5%;
 	color: #FFFFFF;
 	font-family: "Roboto Mono", monospace;
 	font-size: 43px;
   line-height: 57px;
+}
 
+#rectangle-3-copy-2 {
+  height: 10%;
+  width: 10%;
+	background-color: #45B0E5;
+  box-shadow: 2px 2px 4px 0 rgba(79,184,232,0.4);
+  padding-top: 1%;
+  color: white;
+  margin-left: 40%;
+  margin-top: 7%; 
+}
+
+#sign-up-now {
+
+  margin-bottom:5%;
+	color: #FFFFFF;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 27px;
 }
 
 .rectangle-3-copy-7 {
@@ -47,11 +76,6 @@ body {
 	max-width: 80px;
 
 }
-
-.box{
-	max-width: 200px;
-}
-
 
 .existing-user {
 	font-family: "Nunito Sans", sans-serif;
@@ -115,6 +139,10 @@ body {
 	font-size: 20px;
 }
 
+.table-text li {
+	padding-bottom: 10px;
+}
+
 .according {
 	position: absolute;
 	bottom: 0%;
@@ -130,7 +158,7 @@ body {
 	height: 888px;
 }
 
-.what_text{
+.what_text {
 	position: relative;
 	left: 15%;
 	top: 15%;
@@ -143,7 +171,7 @@ body {
 	text-align: left;
 }
 
-.demand_lang{
+.demand_lang {
 	position: relative;
 	left: 15%;
 	top: 30%;
@@ -169,19 +197,23 @@ body {
 }
 
 .box {
+	max-width: 200px;
+}
+
+.box {
 	position: relative;
 	left: 50%;
 	bottom: 20%;
 }
 
-.coding_lang{
+.coding_lang {
 	height: 480px;
 	width: 500px !important ;
 	border: 1px solid #1A1A1A;
 	box-shadow: 0 6px 14px 0 rgba(0,0,0,0.2);
 }
 
-.coding_logo{
+.coding_logo {
 	position: relative;
 	top:13%;
 	height: 91px;
@@ -190,13 +222,13 @@ body {
 	background-color: #45B0E5;
 }
 
-.lang{
+.lang {
 	position: relative;
 	top: 20%;
 	left: 20%;
 }
 
-.coding_paragraph{
+.coding_paragraph {
 	position: relative;
 	top: 35%;
 	left: 15%;
@@ -208,13 +240,13 @@ body {
 	line-height: 27px;
 }
 
-.black_box{
+.black_box {
 	height: 784px;
 	max-width: 100%;
 	background-color: #1A1A1A;
 }
 
-.clear_path{
+.clear_path {
 	position: relative;
 	top: 15%;
 	word-spacing: 10px;
@@ -226,39 +258,6 @@ body {
 	line-height: 35px;
 	text-align: center;
 	margin: auto;
-}
-
-#rectangle-4 {
-	height: 100%;
-  border: 1px solid #979797;
-  background: url('assets/images/code-2558220.jpg');
-  background-position: center;
-  background-size: cover;
-	text-align: center;
-	max-width: 100%;
-	background-size: 100% 100%;
-}
-
-#rectangle-3-copy-2 {
-  height: 10%;
-  width: 10%;
-	background-color: #45B0E5;
-  box-shadow: 2px 2px 4px 0 rgba(79,184,232,0.4);
-  text-align: center;
-  padding-top: 1%;
-  color: white;
-  margin-left: 40%;
-  margin-top: 7%; 
-}
-
-#sign-up-now {
-  margin-bottom:5%;
-	color: #FFFFFF;
-	font-family: "Nunito Sans", sans-serif;
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 27px;
-  text-align: center;
 }
 
 #learning-platform {
@@ -397,8 +396,8 @@ body {
 .pr .work {
 	font-family: "Nunito Sans", sans-serif;
 	text-align: left;
-	color: #949494;
-	font-size: 14px;
+	color: #dbdbdb;
+	font-size: 17px;
 	display: inline-block;
 	position: absolute;
 	top: 13%;
