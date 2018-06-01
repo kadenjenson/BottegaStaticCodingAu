@@ -2,7 +2,6 @@
 
 ##TO-DO
 
-1. Add alumni pictures
 1. Add icons (Bottega logo, react logo, python, partner logo, etc.)
 1. Implement all the different fonts
 1. Final styles and refactors
@@ -11,8 +10,9 @@
 
 ##DONE
 
-~~Initial styles and alignment~~
-~~Picture backgrounds~~
-~~Placeholder buttons~~
-~~Alumni profile carousel~~
-~~Hover effect for profile cards~~
+~~Initial styles and alignment~~  
+~~Picture backgrounds~~  
+~~Placeholder buttons~~  
+~~Alumni profile carousel~~  
+~~Hover effect for profile cards~~  
+~~Add alumni pictures~~  
