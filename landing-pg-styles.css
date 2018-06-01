@@ -145,90 +145,81 @@ a,
 	font-family: "Nunito Sans", sans-serif;
 }
 
+#language-box {
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#language-box {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .what_you_learn {
-	height: 888px;
+	max-width: 330px;
+	margin-right: 75px;
 }
 
 .what_text {
-	position: relative;
-	left: 15%;
-	top: 15%;
+	max-width: 307px;
 	height: 39px;
-	max-width: 15%;
 	color: #333333;
 	font-family: "Roboto Mono", monospace;
 	font-size: 30px;
-	line-height: 39px;
 	text-align: left;
+	padding-bottom: 72px;
 }
 
 .demand_lang {
-	position: relative;
-	left: 15%;
-	top: 30%;
 	height: 39px;
 	width: 307px;
 	color: #1A1A1A;
 	font-family: "Roboto Mono", monospace;
 	font-size: 19px;
-	line-height: 25px;
 }
 
 .project-driven {
-	position: relative;
-	left: 15%;
-	top: 30%;
-	text-align: left;
-	height: 243px;
 	width: 330px;
+	height: 243px;
+	text-align: left;
 	color: #444444;
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 20px;
-	line-height: 27px;
-}
-
-.box {
-	max-width: 200px;
-}
-
-.box {
-	position: relative;
-	left: 50%;
-	bottom: 20%;
 }
 
 .coding_lang {
 	height: 480px;
 	width: 500px !important ;
-	border: 1px solid #1A1A1A;
 	box-shadow: 0 6px 14px 0 rgba(0,0,0,0.2);
 }
 
-.coding_logo {
-	position: relative;
-	top:13%;
-	height: 91px;
-	width: 100px;
-	margin:auto;
-	background-color: #45B0E5;
+.lang-logo {
+	display: block;
+	padding-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.lang {
-	position: relative;
-	top: 20%;
-	left: 20%;
+.coding-text {
+	padding-top: 10%;
+	padding-left: 20%;
+}
+
+.lang-header {
+	font-family: "Roboto Mono", monospace;
+	font-size: 19px;
+	padding-bottom: 15px;
 }
 
 .coding_paragraph {
-	position: relative;
-	top: 35%;
-	left: 15%;
 	height: 135px;
 	width: 292px;
 	color: #666666;
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 20px;
-	line-height: 27px;
 }
 
 .black_box {
