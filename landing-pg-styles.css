@@ -2,22 +2,20 @@ html,
 body {
 	width: 100%;
 	height: 100%;
-	width: 100%;
 	margin:0;
 	padding:0;
 }
 
-#heading {
-	height: 10%;
-	width: 100%;
-	align-content: center;
-	margin-bottom: 100px;;
+.heading {
+  align-content: center;
+  margin-bottom: 100px;;
 }
 
 .partner-logo {
-	position: absolute;
-	top: 3%;
-	left: 6%;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-left: 50px;
+	margin-top: 20px;
 	width: 266px;
 	border: 1px solid #979797;	
 	background-color: #D8D8D8;
@@ -28,27 +26,22 @@ body {
 	vertical-align: middle;
 }
 
-
 .rectangle-3-copy-7 {
-	position: absolute;
-	top: 5%;
-	right: 3%;
 	height: 30px;
-  	border: 2px solid #45B0E5;
+  border: 2px solid #45B0E5;
+  margin-left:80%;
+	text-align: center;
 	padding: 10px;
-	margin-top: 5px;
+	margin-bottom: 30px;
 	max-width: 80px;
 }
 
 .existing-user {
-	width: 20%;
-	position: absolute;
-    top: 1%;
-	right: 3%;
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 14px;
-  	line-height: 19px;
+  line-height: 19px;
 	text-align: right;
+	margin-right: 14%;
 }
 
 #rectangle-4 {
