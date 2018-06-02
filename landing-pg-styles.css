@@ -6,42 +6,40 @@ body {
 	padding:0;
 }
 
-.heading {
-  align-content: center;
-  margin-bottom: 100px;;
+#heading {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .partner-logo {
-	padding-top: 13px;
-	padding-bottom: 13px;
-	margin-left: 50px;
-	margin-top: 20px;
-	width: 266px;
-	border: 1px solid #979797;	
-	background-color: #D8D8D8;
-	color: #333333;	
-	font-family: "Roboto Mono", monospace;
-	font-size: 22px;
-	text-align: center;
-	vertical-align: middle;
+	width: 210px;
+	height: 120px;
 }
 
-.rectangle-3-copy-7 {
-	height: 30px;
-  border: 2px solid #45B0E5;
-  margin-left:80%;
-	text-align: center;
-	padding: 10px;
-	margin-bottom: 30px;
-	max-width: 80px;
+.login-stuff {
+	position: absolute;
+	top: 0;
+	right: 13%;
 }
 
 .existing-user {
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 14px;
-  line-height: 19px;
-	text-align: right;
-	margin-right: 14%;
+	text-align: left;
+}
+
+button.login {
+	width: 140px;
+	height: 40px;
+	background-color: white;
+	border: 2px solid #45B0E5;
+}
+
+.login a {
+	color: #45B0E5;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 16px;
 }
 
 #rectangle-4 {
@@ -232,68 +230,56 @@ a,
 	margin-left: 8%;
 }
 
-.black_box {
-	height: 784px;
-	max-width: 100%;
+#black_box {
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	background-color: #1A1A1A;
+	text-align: center;
 }
 
 .clear_path {
-	position: relative;
-	top: 15%;
 	word-spacing: 10px;
 	height: 70px;
-	width: 30%;
 	color: #FFFFFF;
 	font-family: "Roboto Mono", monospace;
 	font-size: 27px;
-	line-height: 35px;
-	text-align: center;
-	margin: auto;
+	margin-right: 21%;
+	margin-left: 21%;
 }
 
 .logos {
-	position: relative;
+	margin-top: 150px;
+}
+
+.logos {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-	top: 25%;
 }
 
-.logo_text_one {
-	height: 21px;
-	width: 173px;
-	color: #FFFFFF;
-	font-family: "Roboto Mono";
-	font-size: 16px;
-	line-height: 21px;
+.logo_cards {
 	position: relative;
-	left: -50px;
 	text-align: center;
-	top: 50px;
+	max-width: 280px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 10px 15px 10px 15px;
 }
 
-.logo_text_two {
-	position: relative;
-	left: -50px;
-	height: 42px;
-	width: 221px;
+.logo-icons {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo_text {
+	width: 222px;
 	color: #FFFFFF;
 	font-family: "Roboto Mono";
 	font-size: 16px;
-	line-height: 21px;
-	text-align: center;
-}
-
-.logo_text_three {
-	height: 21px;
-	width: 87px;
-	color: #FFFFFF;
-	font-family: "Roboto Mono";
-	font-size: 16px;
-	line-height: 21px;
-	text-align: center;
+	margin-top: 40px;
 }
 
 #learning-platform {
@@ -340,7 +326,7 @@ a,
 	float: left;
 	height: 162px;
 	width: 360px;
-	margin: 20px 20px 20px 20px;
+	margin: 50px 20px 50px 20px;
 }
 
 .card-header {
