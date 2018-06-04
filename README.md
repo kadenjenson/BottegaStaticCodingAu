@@ -2,11 +2,8 @@
 
 ## TO-DO
 
-1. Add icons (Bottega logo, react logo, python, partner logo, etc.)
-1. Implement all the different fonts
 1. Final styles and refactors
 1. Links to correlating pages
-1. Fully responsive display
 
 ## DONE
 
@@ -16,3 +13,7 @@
 ~~Alumni profile carousel~~  
 ~~Hover effect for profile cards~~  
 ~~Add alumni pictures~~  
+~~Fully responsive display~~ 
+~~Implement all the different fonts~~  
+~~Add icons (Bottega logo, react logo, python, partner logo, etc.)~~  
+
