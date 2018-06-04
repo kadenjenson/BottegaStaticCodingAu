@@ -14,12 +14,12 @@ body {
 
 .partner-logo {
 	width: 210px;
-	height: 120px;
+	height: 180px;
 }
 
 .login-stuff {
 	position: absolute;
-	top: 0;
+	top: 5%;
 	right: 13%;
 }
 
