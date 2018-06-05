@@ -45,7 +45,7 @@ button.login {
 #rectangle-4 {
 	width: 100%;
 	height: 700px;
-  background: url('assets/images/code-2558220.jpg');
+  background: url('https://s3.amazonaws.com/partner-static-page-assets/code-2558220.jpg');
   background-position: center;
   background-size: cover;
 	text-align: center;
@@ -115,7 +115,7 @@ a,
 	width: 700px;
 	padding-top: 25%;
 	padding-bottom: 25%;
-	background: url("assets/images/Happy-worker-flipped.jpg");
+	background: url("https://s3.amazonaws.com/partner-static-page-assets/Happy-worker-flipped.jpg");
 	background-size: cover;
 	background-position: left;
 }
@@ -286,7 +286,7 @@ a,
 	position: relative;
 	height: 1152px;
 	width: 100%; 
-	background: url("assets/images/lms-bottega.jpg");
+	background: url("https://s3.amazonaws.com/partner-static-page-assets/lms-bottega.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -446,28 +446,28 @@ a,
 }
 
 .profile-1 {
-	background: url("assets/images/Cherish-Clark.jpg");
+	background: url("https://s3.amazonaws.com/partner-static-page-assets/Cherish-Clark.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .profile-2 {
-	background: url("assets/images/Cody-Higgins.jpg");
+	background: url("https://s3.amazonaws.com/partner-static-page-assets/Cody-Higgins.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .profile-3 {
-	background: url("assets/images/Stephanie.jpg");
+	background: url("https://s3.amazonaws.com/partner-static-page-assets/Stephanie.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .profile-4 {
-	background: url("assets/images/Brian-Anderson.jpg");
+	background: url("https://s3.amazonaws.com/partner-static-page-assets/Brian-Anderson.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -478,7 +478,7 @@ a,
 	width: 100%;
 	padding-top: 15%;
 	padding-bottom: 15%;
-	background: url("assets/images/emile-perron-190221.jpg");
+	background: url("https://s3.amazonaws.com/partner-static-page-assets/emile-perron-190221.jpg");
 	background-size: cover;
 	background-position: center;
 }
