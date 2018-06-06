@@ -112,9 +112,6 @@ a,
 	width: 700px;
 	padding-top: 25%;
 	padding-bottom: 25%;
-	background: url("https://s3.amazonaws.com/partner-static-page-assets/Happy-worker-flipped.jpg");
-	background-size: cover;
-	background-position: left;
 }
 
 .happy-worker-text {
@@ -283,9 +280,6 @@ a,
 	position: relative;
 	height: 1152px;
 	width: 100%; 
-	background: url("https://s3.amazonaws.com/partner-static-page-assets/lms-bottega.jpg");
-	background-position: center;
-	background-size: cover;
 }
 
 .lp-headers {
@@ -442,42 +436,11 @@ a,
 	transform: translate(-50%, -50%);
 }
 
-.profile-1 {
-	background: url("https://s3.amazonaws.com/partner-static-page-assets/Cherish-Clark.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.profile-2 {
-	background: url("https://s3.amazonaws.com/partner-static-page-assets/Cody-Higgins.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.profile-3 {
-	background: url("https://s3.amazonaws.com/partner-static-page-assets/Stephanie.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.profile-4 {
-	background: url("https://s3.amazonaws.com/partner-static-page-assets/Brian-Anderson.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
 #start-now {
 	position: relative;
 	width: 100%;
 	padding-top: 15%;
 	padding-bottom: 15%;
-	background: url("https://s3.amazonaws.com/partner-static-page-assets/emile-perron-190221.jpg");
-	background-size: cover;
-	background-position: center;
 }
 
 #start-now {
