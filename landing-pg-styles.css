@@ -157,6 +157,7 @@ a,
 
 .what_you_learn {
 	max-width: 380px;
+	max-height: 450px !important;
 	margin-right: 30px;
 	margin-left: 30px;
 }
@@ -189,9 +190,8 @@ a,
 }
 
 .coding_lang {
-	height: 350px;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 6%;
+	padding-bottom: 6%;
 	margin-top: 4%;
 	margin-bottom: 4%;
 	box-shadow: 0 6px 14px 0 rgba(0,0,0,0.2);
